@@ -1,0 +1,2 @@
+	function stm(){}
+	function htm(){}

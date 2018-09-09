@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+    <!-- <link rel='stylesheet' type='text/css' href='css/myStyles.css'> -->
+    <link rel='stylesheet' type='text/css' href='css/my1.css'>
+    <!-- <link rel='stylesheet' type='text/css' href='css/tryout2.css'> -->
+    <link rel="icon" type='image/x-icon' href="/img/favicon.ico">
+    <% if (obj) { %>
+	    <title><%= obj.title1 %></title>
+	  	<meta name='author' content='<%= obj.author1 %>'>
+  	<% } %>
+  </head>
+  <body>
+    <div class="container">
+      <div class="prepnav"></div>
+      <div class="row">
+        <div class="col-md-9">
+          <header></header>
+          <main>
+
+
+<%- include('onvi') -%>
+
+<%- include('ft') -%>
