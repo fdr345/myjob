@@ -6,16 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fdr345/myjob.git"
-  },
   "author": "as",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "ejs": "^2.6.1",
-    "mime-types": "^2.1.20",
-    "fdr345": "https://github.com/fdr345/myjob.git"
+    "mime-types": "^2.1.20"
   }
 }
